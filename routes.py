@@ -23,8 +23,8 @@ def get_homepage(rh, game, userid):
             rh.wfile.write(bytes("<p>Your target: %s</p>" % escape(game.players[player.targetid].name), "utf-8"))
             rh.wfile.write(bytes("<p>Your deadly weapon: \"%s\"</p>" % escape(game.players[player.targetid].killword), "utf-8"))
             rh.wfile.write(bytes("""<br><br><br><center><span center=true>
-                                    <form action=kill method=POST onsubmit=\"return confirm('Death is permanent, are you sure?');\">
-                                        <input type=submit value='I HAVE BEEN KILLED'>
+                                    <form action=kill method=POST onsubmit=\"return confirm('Death is permanent, are you sure you have been killed?');\">
+                                        <input type=submit value='BEEN KILLED?'>
                                     </form></span></center>""", "utf-8"))
         else:
             rh.wfile.write(bytes("<p>You are DEAD</p>", "utf-8"))
