@@ -1,0 +1,80 @@
+body {
+    background: url("/static/bg.jpg");
+    background-position: top center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    margin: 2em 4em;
+    height: 100%;
+}
+
+p, td {
+    font-size: 3em;
+    margin: 0.5em;
+}
+
+input, label, form {
+    display: inline;
+}
+
+h1, p, input, li {
+    font-family:fantasy;
+}
+
+h1, p, li {
+    color: lightgray;
+    background-color: black;
+    width: fit-content;
+}
+
+input {
+    background-color: #222222;
+    color: lightgray;
+    border-radius: 0.1em;
+    padding: 0.2em;
+    border-color: green;
+    border-width: 2px;
+    border-bottom: 2px;
+    font-size: 4em;
+}
+
+table input {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.action {
+    background-color: #222222;
+    color: lightgray;
+    border-radius: 0.1em;
+    padding: 0.2em;
+    border-color: green;
+    border-width: 2px;
+    border-bottom: 2px;
+    font-size: 4em;
+}
+
+table {
+    background-color: grey;
+}
+
+td {
+    padding: 5px;
+}
+
+.rules {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
